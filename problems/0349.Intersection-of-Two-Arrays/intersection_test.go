@@ -25,7 +25,7 @@ func TestIntersection(t *testing.T) {
 		},
 	}
 
-	t.Run("0394.Intersection of Two Arrays", func(t *testing.T) {
+	t.Run("0349.Intersection of Two Arrays", func(t *testing.T) {
 		for _, test := range testcase {
 			got := intersection(test.nums1, test.nums2)
 			assert.Equal(t, test.expected, got)
