@@ -19,7 +19,7 @@ func TestPartitionLabels(t *testing.T) {
 
 	t.Run("0763.Partition Labels", func(t *testing.T) {
 		for _, test := range testcase {
-			got := partitionLabels(test.s)
+			got := partitionLablels(test.s)
 			assert.Equal(t, test.expected, got)
 		}
 	})
